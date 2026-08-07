@@ -1,4 +1,4 @@
-@import: url(https://fonts.googleapis.com/css)
+@import: url("https://fonts.googleapis.com/css")
 
    *{
      padding: 0;
@@ -108,11 +108,11 @@ nav {
       display: none;
       transition: all 300ms ease;
       opacity: 0;
-      visability: hidden;
+      visibility: hidden;
     }
 
     .menu--open .menu__backdrop {
-      visability: visable;
+      visibility: visable;
       opacity: 1;
     }
 
@@ -159,7 +159,7 @@ nav {
     }
 
  header {
-    height: calc(100vh-80px);
+    height: calc(100vh - 80px);
     }
 
  .header__container {
@@ -172,7 +172,7 @@ nav {
     justify-content: space-around;
     }
 
- .header__descriprion {
+ .header__description {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -317,7 +317,7 @@ FEATURES
 
 .books {
    display: flex;
-   flex: wrap;
+   flex-wrap: wrap;
 }
 
 .book {
@@ -348,7 +348,7 @@ FEATURES
 }
 
 .book__title:hover {
-   text__decorations: underline;
+   text-decoration: underline;
    cursor: not-allowed;
 }
 
@@ -381,7 +381,7 @@ FOOTER
 
 footer {
    background-color: #242424;
-}\
+}
 
 .footer__logo {
    display: flex;
@@ -389,7 +389,7 @@ footer {
 
 .footer__logo--img {
    width: 160px;
-   filter: grayscale:(1) invert(1);
+   filter: grayscale(1) invert(1);
 }
 
 .footer__link, 
@@ -398,7 +398,7 @@ footer {
 }
 
 .footer__list {
-   margin-bottom: 20px 0 24px 0;
+   margin: 20px 0  24px 0;
 }
 
 .footer__link {
